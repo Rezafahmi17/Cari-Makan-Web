@@ -1,4 +1,4 @@
-# CariMakan Full Stack - Auto Refresh, Admin CRUD, Transaksi, Responsive
+# CariMakan Full Stack - Admin CRUD, Transaksi
 
 Versi ini sudah menambahkan fitur berikut:
 
