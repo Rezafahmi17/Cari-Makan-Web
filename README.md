@@ -1,23 +1,23 @@
-# 🍽️ Cari Makan Web (Fullstack)
+# Cari Makan Web (Fullstack)
 
 **Cari Makan Web** adalah aplikasi fullstack berbasis web untuk pemesanan makanan, lengkap dengan sistem manajemen admin, pembaruan status pesanan secara otomatis (auto-refresh), dan tampilan yang responsif untuk berbagai perangkat (khususnya *mobile-friendly*).
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-### 📱 User & Frontend
+### User & Frontend
 - **Pemesanan Mudah:** Pengguna dapat menelusuri daftar makanan, melihat detail, dan melakukan pemesanan via keranjang.
 - **Tampilan Responsif:** Halaman utama, keranjang, *checkout*, dan navigasi bawah (*bottom navigation*) dirancang agar nyaman digunakan dari HP (Mobile-friendly).
 - **Struk Pemesanan Dinamis:** Tampilan struk pesanan otomatis menyesuaikan status perubahan dari admin.
 - **Auto-polling Pesanan:** Data pesanan diperbarui otomatis setiap 3 detik tanpa perlu melakukan refresh halaman browser.
 
-### 🛡️ Admin Dashboard
+### Admin Dashboard
 - **Manajemen Pesanan (*Real-time*):** Dashboard admin otomatis me-refresh pesanan setiap 3 detik tanpa perlu menekan tombol refresh manual.
 - **CRUD Makanan & Transaksi:** Admin dapat menambah, mengedit, dan menghapus menu makanan, serta memantau keseluruhan riwayat transaksi.
 - **Update Status Akurat:** Admin dapat mengubah status pesanan (Pending, Diproses, Completed, Dibatalkan) langsung pada antarmuka. Notifikasi sukses/gagal akan tampil dan hilang otomatis.
 - **Export Transaksi:** Fitur *export* seluruh riwayat transaksi ke dalam format file Excel.
 - **Pencatatan Keuangan Pintar:** Transaksi pemasukan otomatis tercatat apabila status pesanan diubah ke "Completed", dan otomatis dihapus jika dibatalkan/diubah statusnya untuk mencegah duplikasi rekap laporan.
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 **Frontend:**
 - [React](https://react.org/) (di-build dengan [Vite](https://vitejs.dev/))
@@ -29,7 +29,7 @@
 - [MySQL2](https://www.npmjs.com/package/mysql2) (Database Driver)
 - [JWT (JSON Web Tokens)](https://jwt.io/) & [Bcryptjs](https://www.npmjs.com/package/bcryptjs) (Autentikasi & Keamanan)
 
-## 🚀 Cara Menjalankan Aplikasi di Lokal
+## Cara Menjalankan Aplikasi di Lokal
 
 ### 1. Persiapan Database
 1. Pastikan Anda memiliki server MySQL (misal: XAMPP, Laragon, MySQL Server) berjalan.
